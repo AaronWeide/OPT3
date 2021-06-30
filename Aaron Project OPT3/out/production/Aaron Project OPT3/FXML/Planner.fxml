@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlanController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8ea7bf" height="339.0" layoutX="20.0" layoutY="18.0" onMouseMoved="#unHover" stroke="BLACK" strokeType="INSIDE" width="769.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="49.0" layoutX="32.0" stroke="BLACK" strokeType="INSIDE" width="769.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="55.0" layoutX="38.0" layoutY="348.0" stroke="BLACK" strokeType="INSIDE" width="769.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#265683" height="403.0" stroke="BLACK" strokeType="INSIDE" width="42.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#265683" height="403.0" layoutX="780.0" stroke="BLACK" strokeType="INSIDE" width="52.0" />
+      <Label layoutX="80.0" layoutY="42.0" prefHeight="100.0" prefWidth="738.0" style="-fx-text-fill: #000000;" text="Selecteer een datum om in te plannen">
+         <font>
+            <Font name="Broadway" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="Toevoegen" layoutX="317.0" layoutY="229.0" mnemonicParsing="false" onMouseClicked="#saveDate" onMouseMoved="#hover" prefHeight="55.0" prefWidth="175.0" style="-fx-background-color: #265683; -fx-text-fill: #000000;" text="Toevoegen">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+      </Button>
+      <MenuButton fx:id="Deelselect" layoutX="80.0" layoutY="241.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="195.0" text="Selecteer een dagdeel...">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#setOcht" text="Ochtend" />
+          <MenuItem mnemonicParsing="false" onAction="#setMid" text="Middag" />
+            <MenuItem mnemonicParsing="false" onAction="#setAvd" text="Avond" />
+        </items>
+      </MenuButton>
+      <TextArea fx:id="Planin" layoutX="80.0" layoutY="122.0" prefHeight="111.0" prefWidth="127.0" promptText="Vul hier je plannen in..                                                              typ niet verder dan de balk lang is, druk op enter." />
+      <MenuButton fx:id="Dagselect" layoutX="538.0" layoutY="226.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="195.0" text="Selecteer een dag...">
+         <items>
+            <MenuItem fx:id="Maandag" mnemonicParsing="false" onAction="#setMDag" text="Maandag" />
+            <MenuItem fx:id="Dinsdag" mnemonicParsing="false" onAction="#setDDag" text="Dinsdag" />
+            <MenuItem fx:id="Woensdag" mnemonicParsing="false" onAction="#setWDag" text="Woensdag" />
+            <MenuItem fx:id="Donderdag" mnemonicParsing="false" onAction="#setDODag" text="Donderdag" />
+            <MenuItem fx:id="Vrijdag" mnemonicParsing="false" onAction="#setVDag" text="Vrijdag" />
+            <MenuItem fx:id="Zaterdag" mnemonicParsing="false" onAction="#setZDag" text="Zaterdag" />
+            <MenuItem fx:id="Zondag" mnemonicParsing="false" onAction="#setZODag" text="Zondag" />
+         </items>
+      </MenuButton>
+      <Label fx:id="Warning" layoutX="538.0" layoutY="202.0" prefHeight="17.0" prefWidth="195.0" text="1" />
+      <Slider fx:id="WeekSlider" blockIncrement="1.0" layoutX="538.0" layoutY="188.0" majorTickUnit="1.0" max="52.0" min="1.0" minorTickCount="1" onKeyPressed="#sliderNumb" onKeyTyped="#sliderNumb" onMouseClicked="#sliderNumb" onMouseDragged="#sliderNumb" onMouseMoved="#sliderNumb" onMouseReleased="#sliderNumb" prefHeight="14.0" prefWidth="195.0" snapToTicks="true" />
+      <Label layoutX="538.0" layoutY="172.0" prefHeight="17.0" prefWidth="175.0" text="Selecteer een week" />
+      <Label fx:id="Niettoevoeg" layoutX="317.0" layoutY="284.0" prefHeight="17.0" prefWidth="175.0" text="Vul A.U.B alle gegevens in" textFill="#8ea7bf" />
+      <Button fx:id="Back" layoutX="646.0" layoutY="293.0" mnemonicParsing="false" onMouseClicked="#lastPage" onMouseMoved="#hoverB" prefHeight="41.0" prefWidth="119.0" style="-fx-background-color: #265683; -fx-text-fill: #000000;" text="Back">
+         <font>
+            <Font name="Broadway" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

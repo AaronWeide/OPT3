@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8ea7bf" height="400.0" layoutY="7.0" onMouseMoved="#UnHover" stroke="BLACK" strokeType="INSIDE" width="832.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="49.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="832.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#265683" height="107.0" stroke="BLACK" strokeType="INSIDE" width="832.0" />
+      <Label layoutX="302.0" prefHeight="107.0" prefWidth="440.0" style="-fx-text-fill: #000000;" text="Planner" textOverrun="CLIP">
+         <font>
+            <Font name="Broadway" size="53.0" />
+         </font>
+      </Label>
+      <Button fx:id="StartButton" layoutX="287.0" layoutY="214.0" mnemonicParsing="false" onDragOver="#Hover" onMouseClicked="#Start" onMouseDragOver="#Hover" onMouseMoved="#Hover" prefHeight="118.0" prefWidth="250.0" style="-fx-background-color: #265683; -fx-text-fill: #000000;" text="Start" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="51.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

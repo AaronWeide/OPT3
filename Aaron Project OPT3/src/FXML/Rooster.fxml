@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="767.0" style="-fx-background-color: #8ea7bf;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RoosterController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#265683" height="71.0" onMouseMoved="#unHover" stroke="BLACK" strokeType="INSIDE" width="950.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="45.0" layoutX="-7.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="45.0" layoutX="156.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="124.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="45.0" layoutX="280.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="45.0" layoutX="554.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="45.0" layoutX="686.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="45.0" layoutX="420.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#253a4d" height="45.0" layoutX="818.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+      <Label fx:id="OMA" alignment="TOP_LEFT" layoutX="33.0" layoutY="124.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Ochtend:" />
+      <Label fx:id="OWO" alignment="TOP_LEFT" layoutX="296.0" layoutY="124.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Ochtend:" />
+      <Label fx:id="ODO" alignment="TOP_LEFT" layoutX="428.0" layoutY="124.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Ochtend:" />
+      <Label fx:id="OVR" alignment="TOP_LEFT" layoutX="558.0" layoutY="124.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Ochtend:" />
+      <Label fx:id="OZA" alignment="TOP_LEFT" layoutX="690.0" layoutY="124.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Ochtend:" />
+      <Label fx:id="OZO" alignment="TOP_LEFT" layoutX="822.0" layoutY="124.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Ochtend:" />
+      <Label fx:id="ODI" alignment="TOP_LEFT" layoutX="165.0" layoutY="124.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Ochtend:" />
+      <Label fx:id="MMA" alignment="TOP_LEFT" layoutX="33.0" layoutY="256.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Middag:" />
+      <Label fx:id="MDI" alignment="TOP_LEFT" layoutX="165.0" layoutY="256.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Middag:" />
+      <Label fx:id="MWO" alignment="TOP_LEFT" layoutX="296.0" layoutY="256.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Middag:" />
+      <Label fx:id="MVR" alignment="TOP_LEFT" layoutX="558.0" layoutY="256.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Middag:" />
+      <Label fx:id="MDO" alignment="TOP_LEFT" layoutX="428.0" layoutY="256.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Middag:" />
+      <Label fx:id="MZA" alignment="TOP_LEFT" layoutX="690.0" layoutY="256.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Middag:" />
+      <Label fx:id="MZO" alignment="TOP_LEFT" layoutX="822.0" layoutY="256.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Middag:" />
+      <Label fx:id="AMA" alignment="TOP_LEFT" layoutX="33.0" layoutY="384.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Avond:" />
+      <Label fx:id="AWO" alignment="TOP_LEFT" layoutX="296.0" layoutY="384.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Avond:" />
+      <Label fx:id="ADO" alignment="TOP_LEFT" layoutX="428.0" layoutY="384.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Avond:" />
+      <Label fx:id="AVR" alignment="TOP_LEFT" layoutX="558.0" layoutY="384.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Avond:" />
+      <Label fx:id="AZA" alignment="TOP_LEFT" layoutX="690.0" layoutY="384.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Avond:" />
+      <Label fx:id="AZO" alignment="TOP_LEFT" layoutX="822.0" layoutY="384.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Avond:" />
+      <Label fx:id="ADI" alignment="TOP_LEFT" layoutX="165.0" layoutY="384.0" prefHeight="116.0" prefWidth="124.0" style="-fx-background-color: WHITE;" text="Avond:" />
+      <Label layoutX="22.0" layoutY="82.0" prefHeight="24.0" prefWidth="124.0" text="Maandag" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="80.0" prefHeight="24.0" prefWidth="124.0" text="Woensdag" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="80.0" prefHeight="24.0" prefWidth="124.0" text="Donderdag" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="581.0" layoutY="82.0" prefHeight="24.0" prefWidth="124.0" text="Vrijdag" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="705.0" layoutY="82.0" prefHeight="24.0" prefWidth="124.0" text="Zaterdag" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="847.0" layoutY="80.0" prefHeight="24.0" prefWidth="87.0" text="Zondag" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="82.0" prefHeight="24.0" prefWidth="124.0" text="Dinsdag" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back" layoutX="32.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#Return" onMouseMoved="#hoverB" prefHeight="45.0" prefWidth="87.0" style="-fx-background-color: #8ea7bf; -fx-text-fill: BLACK;" text="Back">
+         <font>
+            <Font name="Broadway" size="18.0" />
+         </font></Button>
+      <Slider fx:id="WeekKeuze" blockIncrement="1.0" layoutX="737.0" layoutY="14.0" majorTickUnit="1.0" max="52.0" min="1.0" minorTickCount="1" onKeyPressed="#sliderCon" onKeyTyped="#sliderCon" onMouseClicked="#sliderCon" onMouseDragged="#sliderCon" onMouseMoved="#sliderCon" prefHeight="14.0" prefWidth="180.0" />
+      <Label fx:id="WelkeWeek" layoutX="752.0" layoutY="27.0" prefHeight="17.0" prefWidth="87.0" style="-fx-text-fill: BLACK;" text="Week: 1" />
+      <Button fx:id="Selecteer" layoutX="577.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#show" onMouseMoved="#hoverS" prefHeight="45.0" prefWidth="140.0" style="-fx-background-color: #8ea7bf; -fx-text-fill: BLACK;" text="Selecteer">
+         <font>
+            <Font name="Broadway" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="Error" layoutX="282.0" layoutY="50.0" prefHeight="17.0" prefWidth="196.0" text="Plan eerst wat in!" textFill="#265683" />
+   </children>
+</AnchorPane>
